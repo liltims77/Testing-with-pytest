@@ -1,4 +1,6 @@
-#You have a function clean_data(data) that takes in a list of dictionaries representing records. Write a unit test to ensure the function removes records with missing age fields.
+#You have a function clean_data(data) that takes in a list of dictionaries representing records. 
+# Write a unit test to ensure the function removes records with missing age fields.
+
 # Function to be tested
 def clean_data(data):
     return [record for record in data if 'age' in record and record['age'] is not None]
