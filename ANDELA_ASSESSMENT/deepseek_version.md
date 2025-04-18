@@ -66,7 +66,7 @@ def validate_data(data):
     
     return result
 
-# Test with the sample data
+Test with the sample data
 sample_data = [
     {"id": 1, "name": "James", "age": 20, "email": "james@gmail.com"},
     {"id": 2, "name": "Lily", "age": None, "email": "lily@example.com"},
@@ -75,4 +75,4 @@ sample_data = [
 ]
 
 print(validate_data(sample_data))
-# Expected Output: {'missing_values': True, 'wrong_values': True, 'invalid_email': True}
+Expected Output: {'missing_values': True, 'wrong_values': True, 'invalid_email': True}
