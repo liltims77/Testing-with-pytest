@@ -40,3 +40,5 @@ if __name__ == "__main__":
         {"id": 4, "name": "John", "age": 22, "email": "john.doe@gmail.com"}
     ]
     print(validate_data(sample_data))
+
+    print(validate_data(sample_data))
