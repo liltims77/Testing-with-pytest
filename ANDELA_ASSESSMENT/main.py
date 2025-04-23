@@ -2,11 +2,14 @@
 import re
 
 def validate_data(data):
+    # Initialize result dictionary
     missing_values = False
     missing_age = False
     invalid_email = False
 
+    # Regular expression for validating email
     email_regex = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+    # email_regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 
     for record in data:
         # Check for any None values

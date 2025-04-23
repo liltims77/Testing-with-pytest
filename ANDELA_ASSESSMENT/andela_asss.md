@@ -1,7 +1,8 @@
 🔍 Simulated Assessment Question
 You're part of a data engineering team working for an e-learning company. 
-The company collects student data in JSON format. T
-he data sometimes contains missing or invalid entries. Your task is to write a Python function to validate the data.
+The company collects student data in JSON format. 
+The data sometimes contains missing or invalid entries. 
+Your task is to write a Python function to validate the data.
 
 
 You're given a list of student records in the form of dictionaries. Each record contains:

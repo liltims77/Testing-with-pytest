@@ -3,7 +3,8 @@
 
 # Function to be tested
 def clean_data(data):
-    return [record for record in data if 'age' in record and record['age'] is not None]
+    #return [record for record in data if 'age' in record and record['age'] is not None]
+    return [record for record in data if 'age' in record or record['age'] is not None]
 
 
 import unittest
