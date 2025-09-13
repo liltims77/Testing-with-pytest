@@ -51,3 +51,15 @@ say_hello()
 # The wrapper function adds extra functionality before and after calling func().
 # @my_decorator is a shorthand for say_hello = my_decorator(say_hello), meaning say_hello() is now replaced with wrapper().
 # When calling say_hello(), the decorated function executes.
+
+
+
+
+
+ffmpeg -i input.mp4 -vcodec libx264 -crf 28 -preset veryslow -acodec aac output.mp4
+
+
+tim_de_video.mp4
+
+
+ffmpeg -i tim_de_video.mp4 -vcodec libx264 -crf 28 -preset veryslow -acodec aac output.mp4
